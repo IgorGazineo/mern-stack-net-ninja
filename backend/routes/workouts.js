@@ -13,3 +13,11 @@ router.get("/:id", (req, res) => {
 router.post("/", (req, res) => {
   res.json({ mssg: "POST a new workout" });
 });
+
+router.delete("/:id", (req, res) => {
+  res.json({ mssg: "DELETE a workout" });
+});
+
+router.patch("/", (req, res) => {
+  res.json({ mssg: "UPDATE a workout" });
+});
