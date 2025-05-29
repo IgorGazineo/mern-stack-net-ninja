@@ -21,3 +21,5 @@ router.delete("/:id", (req, res) => {
 router.patch("/", (req, res) => {
   res.json({ mssg: "UPDATE a workout" });
 });
+
+module.exports = router;
